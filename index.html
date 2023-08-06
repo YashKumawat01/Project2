@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Form</title>
+    <link rel="stylesheet" href="form.css">
+    <style>
+        body {
+            background: linear-gradient(to right,red,blue);
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- <img src="logo.png" alt="logo" id="logo"> -->
+            <img src="logo.png" alt=" logo" id="logo">
+</div><div class="h3">Welcome To MCU</div>
+    </header>
+    <div class="Mail" style="color: white;">
+        <a href="mailto:itsyashkumawat@gmail.com">Mail Us</a>
+    </div>
+    </header>
+
+    <div>
+        <h2 class="tagline">Here is a Info Form for participate in MCU Fest</h2>
+    </div>
+    <form action="backend.php">
+
+
+
+        <div class="info">
+            <label for="name">Name :</label> <input id="name" type="text" placeholder="Enter Full Name" required
+                style="text-align: center;"><br>
+
+
+            <label for="fanme">F. Name :</label> <input id="fname" type="text " required
+                style="text-align: center;"><br>
+
+            <label for="country">Country :</label> <input id="country" type="text " required
+                style="text-align: center;"><br>
+
+            <label for="mail">E-mail :</label> <input id="mail" type="email " required style="text-align: center;"><br>
+
+
+
+            <label for="gender">Gender :</label> Male <input id="gender" type="radio" name="mygender"> Female <input
+                id="gender" type="radio" name="mygender"><br>
+
+            <label for="eligible">Are you 18+ :</label> Yes <input id="eligible" type="radio" name="eligibility"> No
+            <input id="eligible" type="radio" name="eligibility"><br>
+
+            <label for="mobno.">Mobile No. :</label> <input id="mobno." type="number " required
+                style="text-align: center;"><br>
+
+            <label for="dob">Date of Birth :</label><input id="dob" required type="date"><br>
+
+            <label for="address">Address :</label><input type="text" required name="" id="address"><br>
+            <div>
+                <input type="submit" value="Submit" class="buttons">
+                <input type="reset" value=" Reset" class="buttons">
+
+            </div>
+
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>
